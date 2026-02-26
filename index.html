@@ -1,0 +1,562 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>THI THỬ VÀO 10 – TIẾNG ANH</title>
+
+<style>
+body{
+  font-family:"Times New Roman", serif;
+  font-size:19px;
+  background:#2D3C59;
+  margin:0;
+  padding-top:90px;
+}
+
+#examHeader{
+  position:fixed;
+  top:0;left:0;width:100%;
+  background:#fff;
+  padding:10px;
+  border-bottom:2px solid #ccc;
+  z-index:999;
+}
+
+.headerRow{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  align-items:center;
+}
+
+#timer{font-weight:bold}
+.timeWarning{color:red}
+
+
+
+
+.container{
+  max-width:900px;
+  margin:auto;
+  background:#fff;
+  padding:20px;
+  border-radius:8px;
+  margin-top:120px;
+}
+
+.part{margin-bottom:30px}
+.question{margin-bottom:15px}
+
+.short-answer{width:120px;font-size:18px}
+textarea{width:100%;height:70px;font-size:18px}
+
+table{border-collapse:collapse;margin-top:10px}
+th,td{border:1px solid #000;padding:8px;vertical-align:top}
+
+.locked input,
+.locked textarea{
+  pointer-events:none;
+  opacity:0.6;
+}
+
+
+.highlight {
+  background: #ffeb3b;
+  padding: 0;
+  margin: 0;
+}
+
+
+button{
+  font-size:18px;
+  padding:8px 16px;
+  margin-top:15px;
+  margin-right:10px;
+}
+
+input[type="text"],textarea{
+  color:red;
+}
+</style>
+</head>
+
+<body>
+
+<div id="examHeader">
+  <div class="headerRow">
+    <h2>LỚP ANH THẦY KẾT – THI THỬ VÀO 10</h2>
+    <div id="timer">Time: 60:00</div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- ================= PART 1 ================= -->
+<div class="part">
+<h3>A. PART 1: USE OF ENGLISH (4,5ms)</h3>
+
+<h4>I. MULTIPLE CHOICE QUESTIONS (2,5ms)</h4>
+
+<div class="question">
+1. If you study harder for the upcoming final exam, you ______ better grades.<br>
+<label><input type="radio" name="mc4" value="A"> A. get</label><br>
+<label><input type="radio" name="mc4" value="B"> B. got</label><br>
+<label><input type="radio" name="mc4" value="C"> C. will get</label><br>
+<label><input type="radio" name="mc4" value="D"> D. are getting</label>
+</div>
+
+<div class="question">
+2. The city center is always crowded ______ tourists during the summer holiday.<br>
+<label><input type="radio" name="mc5" value="A"> A. with</label><br>
+<label><input type="radio" name="mc5" value="B"> B. of</label><br>
+<label><input type="radio" name="mc5" value="C"> C. for</label><br>
+<label><input type="radio" name="mc5" value="D"> D. by</label>
+</div>
+
+<div class="question">
+3. On Sunday mornings, my grandfather usually goes to ______ post office to collect his pension.<br>
+<label><input type="radio" name="mc6" value="A"> A. a</label><br>
+<label><input type="radio" name="mc6" value="B"> B. an</label><br>
+<label><input type="radio" name="mc6" value="C"> C. the</label><br>
+<label><input type="radio" name="mc6" value="D"> D. Ø</label>
+</div>
+
+<div class="question">
+4. The guide showed the tourists ______ to use the local subway system to save time.<br>
+<label><input type="radio" name="mc7" value="A"> A. what</label><br>
+<label><input type="radio" name="mc7" value="B"> B. how</label><br>
+<label><input type="radio" name="mc7" value="C"> C. where</label><br>
+<label><input type="radio" name="mc7" value="D"> D. which</label>
+</div>
+
+<div class="question">
+5. The government has _______ a major project to improve the sewage systems since 2023.<br>
+<label><input type="radio" name="mc8" value="A"> A. carried out</label><br>
+<label><input type="radio" name="mc8" value="B"> B. given up</label><br>
+<label><input type="radio" name="mc8" value="C"> C. come down with</label><br>
+<label><input type="radio" name="mc8" value="D"> D. got around</label>
+</div>
+
+<div class="question">
+6. The weather was ______ hot that we decided to stay indoors and turn on the air conditioner.<br>
+<label><input type="radio" name="mc9" value="A"> A. such</label><br>
+<label><input type="radio" name="mc9" value="B"> B. very</label><br>
+<label><input type="radio" name="mc9" value="C"> C. so</label><br>
+<label><input type="radio" name="mc9" value="D"> D. too</label>
+</div>
+
+<div class="question">
+7. We should ______ use of every opportunity to practice speaking English with foreigners.<br>
+<label><input type="radio" name="mc10" value="A"> A. do</label><br>
+<label><input type="radio" name="mc10" value="B"> B. make</label><br>
+<label><input type="radio" name="mc10" value="C"> C. take</label><br>
+<label><input type="radio" name="mc10" value="D"> D. give</label>
+</div>
+
+<div class="question">
+8. Many people choose to travel __________ to save money and explore their own country.<br>
+<label><input type="radio" name="mc11" value="A"> A. internationally</label><br>
+<label><input type="radio" name="mc11" value="B"> B. domestically</label><br>
+<label><input type="radio" name="mc11" value="C"> C. uniquely</label><br>
+<label><input type="radio" name="mc11" value="D"> D. culturally</label>
+</div>
+
+<div class="question">
+9. The city centre is now packed with high buildings. It looks like an ugly ______.<br>
+<label><input type="radio" name="mc12" value="A"> A. public amenity</label><br>
+<label><input type="radio" name="mc12" value="B"> B. concrete jungle</label><br>
+<label><input type="radio" name="mc12" value="C"> C. green jungle</label><br>
+<label><input type="radio" name="mc12" value="D"> D. tropical rainforest</label>
+</div>
+
+<div class="question">
+10. Although chocolate is delicious, it is also quite _________ if consumed in large amounts.<br>
+<label><input type="radio" name="mc13" value="A"> A. physical</label><br>
+<label><input type="radio" name="mc13" value="B"> B. trusted</label><br>
+<label><input type="radio" name="mc13" value="C"> C. fattening</label><br>
+<label><input type="radio" name="mc13" value="D"> D. optimistic</label>
+</div>
+
+
+<h4>II. WORD FORM (1.0m)</h4>
+<div class="question">
+1. The local residents treated the homeless man very ___________ by providing him with food and clothes. 
+<input class="short-answer" type="text" name="wf3"> <b>(generous)</b>
+</div>
+
+<div class="question">
+2. My grandfather has a great sense of ___________; he always makes everyone laugh with his jokes. 
+<input class="short-answer" type="text" name="wf4"> <b>(humorous)</b>
+</div>
+
+<div class="question">
+3. Our trip to the countryside last summer was a truly ___________ experience that I will never forget. 
+<input class="short-answer" type="text" name="wf5"> <b>(memory)</b>
+</div>
+
+<div class="question">
+4. The government needs to ___________ the development of clean water systems in rural areas. 
+<input class="short-answer" type="text" name="wf6"> <b>(priority)</b>
+</div>
+
+
+<h4>III. VERB FORM & TENSE (1.0m)</h4>
+
+<div class="question">
+1. While my mother was cooking in the kitchen, my father <input class="short-answer" type="text" name="v4"> the garden. <b>(water)</b>
+</div>
+
+<div class="question">
+2. We will have a small party to celebrate our success when our leader <input class="short-answer" type="text" name="v5"> from the business trip tomorrow. <b>(return)</b>
+</div>
+
+<div class="question">
+3. You should avoid <input class="short-answer" type="text" name="v6"> too much fast food if you want to stay healthy. <b>(eat)</b>
+</div>
+
+<div class="question">
+4. It is very difficult <input class="short-answer" type="text" name="v7"> a new language in just a few months without practicing every day. <b>(learn)</b>
+</div>
+
+<!-- ================= PART 2 ================= -->
+<div class="part">
+<h3>B. PART 2: READING (3ms)</h3>
+
+<h4>I. MATCHING (1m)</h4>
+
+<table width="100%">
+<tr><th>Notice</th><th>Statement</th></tr>
+<tr>
+    <td>1. Fasten your seatbelt while seated.</td>
+    <td>A. You should throw away your trash in the designated bins.</td>
+  </tr>
+  <tr>
+    <td>2. Keep off the grass.</td>
+    <td>B. You must wear your safety strap for the duration of the trip.</td>
+  </tr>
+  <tr>
+    <td>3. No smoking in this building.</td>
+    <td>C. Please do not walk or step on the lawn.</td>
+  </tr>
+  <tr>
+    <td>4. Place litter in the bin.</td>
+    <td>D. People are not allowed to use cigarettes or vape here.</td>
+  </tr>
+  <tr>
+    <td>5. Silence! Exam in progress.</td>
+    <td>E. You need to be quiet because students are taking a test.</td>
+  </tr>
+</table>
+
+<p>
+<b>Your answers:</b><br>
+1. <b>B</b>  &nbsp;
+2. <input class="short-answer" name="match2">
+3. <input class="short-answer" name="match3">
+4. <input class="short-answer" name="match4">
+5. <input class="short-answer" name="match5">
+
+
+
+</p>
+
+
+
+<h4>II. MULTIPLE CHOICE GAP FILL (1m)</h4>
+
+<div class="passageBox">
+I hope this letter finds you well. Thanks to your lovely letter, which advised me to do something as a hobby but still beneficial for the community, I’m delighted to let you know that I have joined the school cooking club. Now I cook meals for old people (1) ______ our neighborhood every Friday. We usually make simple dishes such as rice, soup, fish, and vegetables. We also come to the homes of those who have found it difficult to go out and about and give them fresh food. (2) _____ the elderly who live alone feel very happy to see us.
+I love their smiles when they receive the meals. They often share their favorite (3) _____, which help us enrich our offered menu. Sometimes, we even sing songs together to create a joyful atmosphere.
+I enjoy talking with them and listening to their stories. Interestingly, they are willing to tell us about their families (4) _____ how optimistic they are about their grandchildren’s future. It’s always great to help others and learn kindness. I know you are doing the same thing at your school too. Let’s both try to make the community better!
+</div>
+
+<p><b>(1)</b></p>
+<label><input type="radio" name="gap1" value="A"> A. on</label><br>
+<label><input type="radio" name="gap1" value="B"> B. in</label><br>
+<label><input type="radio" name="gap1" value="C"> C. at</label><br>
+<label><input type="radio" name="gap1" value="D"> D. of</label>
+
+<br>
+
+<p><b>(2)</b></p>
+<label><input type="radio" name="gap2" value="A"> A. Some of</label><br>
+<label><input type="radio" name="gap2" value="B"> B. Some</label><br>
+<label><input type="radio" name="gap2" value="C"> C. A lot</label><br>
+<label><input type="radio" name="gap2" value="D"> D. Few</label>
+
+<br>
+
+<p><b>(3)</b></p>
+<label><input type="radio" name="gap3" value="A"> A. cookers </label><br>
+<label><input type="radio" name="gap3" value="B"> B. travels </label><br>
+<label><input type="radio" name="gap3" value="C"> C. pastimes </label><br>
+<label><input type="radio" name="gap3" value="D"> D. recipes </label>
+
+<br>
+
+<p><b>(4)</b></p>
+<label><input type="radio" name="gap4" value="A"> A. so</label><br>
+<label><input type="radio" name="gap4" value="B"> B. and</label><br>
+<label><input type="radio" name="gap4" value="C"> C. for</label><br>
+<label><input type="radio" name="gap4" value="D"> D. but</label>
+
+
+
+<h4>III. MULTIPLE CHOICE COMPREHENSION (1m)</h4>
+
+<div class="passageBox">
+  Today, many teenagers are attracted to screen-based activities such as online games, social media, or web surfing. But if they haven’t tried playing a sport yet, now is the perfect time to give it a try!<br>
+
+Playing sports offers numerous benefits for teenagers, both physically and mentally. It helps them stay healthy by keeping their bodies active. Physical activities make teens’ hearts stronger and give them more energy. Sports help the brain work better, so teens can focus more easily in class. Through sports, teens also learn values and sportsmanship. Team sports teach them that the team’s success depends on how well the players work together. They learn to prioritise the team’s interests over individual performance. These ways of thinking aren’t just useful in sports; they can help teens become more organised and responsible. On top of that, playing sports is a great way to reduce stress. Spending time with friends through games also makes teens more relaxed and socially connected.<br>
+
+To conclude, playing sports helps teenagers be physically fitter, think more positively, and build better relationships. Therefore, teenagers should take up a sport they enjoy!
+</div>
+
+<p>1. What is the main idea of the passage?</p>
+<label><input type="radio" name="rc2" value="A"> A. The negative side of screen-based activities</label><br>
+<label><input type="radio" name="rc2" value="B"> B. The benefits of playing sports for teens</label><br>
+<label><input type="radio" name="rc2" value="C"> C. The effectiveness of time management in sports</label><br>
+<label><input type="radio" name="rc2" value="D"> D. Teenagers' responsibilities in society</label><br><br>
+
+<p>2. According to the passage, how do sports contribute to teenagers’ academic performance?</p>
+<label><input type="radio" name="rc3" value="A"> A. By increasing their physical strength for long study hours.</label><br>
+<label><input type="radio" name="rc3" value="B"> B. By improving mental sharpness and the ability to concentrate.</label><br>
+<label><input type="radio" name="rc3" value="C"> C. By teaching them how to manage homework effectively.</label><br>
+<label><input type="radio" name="rc3" value="D"> D. By reducing the amount of time spent on school subjects.</label><br><br>
+
+<p>3. Which of the following is NOT mentioned in the text?</p>
+<label><input type="radio" name="rc4" value="A"> A. Having a balanced diet makes teenagers much healthier.</label><br>
+<label><input type="radio" name="rc4" value="B"> B. Playing sports improves teens' focus on their schoolwork.</label><br>
+<label><input type="radio" name="rc4" value="C"> C. Sports help teens develop both physically and mentally.</label><br>
+<label><input type="radio" name="rc4" value="D"> D. Playing with friends through games is quite relaxing.</label><br><br>
+
+<p>4. What can be inferred from the passage about team sports?</p>
+<label><input type="radio" name="rc5" value="A"> A. Individual skills are more important than teamwork.</label><br>
+<label><input type="radio" name="rc5" value="B"> B. Teenagers become more competitive and aggressive.</label><br>
+<label><input type="radio" name="rc5" value="C"> C. Cooperation plays a key role in achieving success.</label><br>
+<label><input type="radio" name="rc5" value="D"> D. Players are encouraged to focus only on personal results.</label><br><br>
+
+
+<!-- ================= PART 3 ================= -->
+<div class="part">
+<div class="part">
+  <h3>C. PART 3: COMMUNICATION SKILLS (0,5m)</h3>
+
+  <p><b>1. Choose the best response to complete the exchange.</b></p>
+<p>Anna: _______<br>
+Ben: It starts at 7:15 pm. Don’t be late!</p>
+
+<label><input type="radio" name="com2" value="A"> A. How long does the film last?</label><br>
+<label><input type="radio" name="com2" value="B"> B. We’re arriving there at 7:15, aren’t we?</label><br>
+<label><input type="radio" name="com2" value="C"> C. What time does the movie start?</label><br>
+<label><input type="radio" name="com2" value="D"> D. When did you reach the theatre yesterday?</label><br>
+
+
+<p><b>2. Choose the best arrangement of the sentences to make a meaningful exchange.</b></p>
+
+<p>
+  a. Passer-by: You're welcome! It's just a 5-minute walk from here.<br>
+  b. Tourist: Excuse me, could you tell me how to get to the National Museum?<br>
+  c. Passer-by: Yes, of course. Go straight for two blocks and it’s on your left.<br>
+  d. Tourist: Thank you so much. Is it far enough that I should take a taxi?<br>
+  e. Tourist: Oh, that's very close. Have a nice day!
+</p>
+
+<label><input type="radio" name="com3" value="A"> A. b - c - d - a – e</label><br>
+<label><input type="radio" name="com3" value="B"> B. b - d - c - a – e</label><br>
+<label><input type="radio" name="col3" value="C"> C. b - a - d - c – e</label><br>
+<label><input type="radio" name="com3" value="D"> D. b - c - a - d - e</label><br><br>
+
+<!-- ================= PART 4 ================= -->
+<div class="part">
+<h3>D. PART 4: WRITING (2ms)</h3>
+
+  <p><b>1. Complete each of the following sentences so that it is closest in meaning to the original one. (1m)</b></p>
+
+  <p>1. "Are you interested in joining our green project?" asked the teacher.<br>
+  → The teacher asked me ............................................................ the following day.
+  </p>
+  <textarea name="wr1" placeholder="Nhập câu trả lời của bạn vào đây..."></textarea>
+
+  <p>2. A car is more expensive than a motorbike.<br>
+  → A motorbike is not ..........................................
+  </p>
+  <textarea name="wr2" placeholder="Nhập câu trả lời của bạn vào đây..."></textarea>
+
+  <p><b>2. Combine the two sentences into one, using the word given in brackets. (1m)</b></p>
+
+  <p>1. We stayed at home yesterday. The weather was very stormy. <b> (because of)</b><br>
+  → We stayed at home yesterday .....................................................
+  </p>
+  <textarea name="wr3" placeholder="Nhập câu trả lời của bạn vào đây..."></textarea>
+
+  <p>2. The woman is a famous singer. Her songs are loved by many teenagers.<b>(whose)</b><br>
+  → The woman ....................................................................... a famous singer.
+  </p>
+  <textarea name="wr4" placeholder="Nhập câu trả lời của bạn vào đây..."></textarea>
+</div>
+
+<button id="exportPdfBtn">Xuất PDF</button>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script>
+exportPdfBtn.onclick = () => {
+  document.body.classList.add("locked");
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF("p","pt","a4");
+  let y = 40;
+
+  const add = t => {
+    doc.text(String(t), 40, y);
+    y += 18;
+    if (y > 760) {
+      doc.addPage();
+      y = 40;
+    }
+  };
+
+  add("A. PART 1");
+  ["mc3","mc4","mc5","mc6","mc7","mc8","mc9","mc10","mc11","mc12"].forEach((n,i)=>{
+    const a=document.querySelector(`input[name="${n}"]:checked`);
+    add(`${i+1}. ${a?a.value:"___"}`);
+  });
+
+  add("WORD FORM");
+  ["wf2","wf3","wf4","wf5"].forEach((n,i)=>{
+    const el=document.querySelector(`[name="${n}"]`);
+    add(`WF${i+1}: ${el?el.value:""}`);
+  });
+
+  add("VERB FORM");
+  ["v3","v4","v5","v6"].forEach((n,i)=>{
+    const el=document.querySelector(`[name="${n}"]`);
+    add(`V${i+1}: ${el?el.value:""}`);
+  });
+
+  add("MATCHING");
+  add("1. C");
+  for(let i=2;i<=5;i++){
+    const el=document.querySelector(`[name="match${i}"]`);
+    add(`${i}. ${el?el.value:""}`);
+  }
+
+  add("GAP FILL");
+  for(let i=1;i<=4;i++){
+    const a=document.querySelector(`input[name="gap${i}"]:checked`);
+    add(`${i}. ${a?a.value:"___"}`);
+  }
+
+  add("READING");
+  for(let i=1;i<=4;i++){
+    const a=document.querySelector(`input[name="rc${i}"]:checked`);
+    add(`${i}. ${a?a.value:"___"}`);
+  }
+
+  add("COMMUNICATION");
+  for(let i=1;i<=2;i++){
+    const a=document.querySelector(`input[name="com${i}"]:checked`);
+    add(`${i}. ${a?a.value:"___"}`);
+  }
+
+  add("WRITING");
+  for(let i=1;i<=4;i++){
+    const el=document.querySelector(`[name="wr${i}"]`);
+    add(`Q${i}: ${el?el.value:""}`);
+  }
+
+  doc.save("BaiLam_HocSinh.pdf");
+};
+</script>
+
+
+<script>
+document.addEventListener("mouseup", () => {
+  const selection = window.getSelection();
+  if (!selection || selection.isCollapsed) return;
+
+  const range = selection.getRangeAt(0);
+
+  // Không cho highlight trong input / textarea
+  if (
+    range.startContainer.closest?.("input, textarea") ||
+    range.endContainer.closest?.("input, textarea")
+  ) {
+    selection.removeAllRanges();
+    return;
+  }
+
+  // Nếu đang click vào vùng đã highlight → xoá highlight
+  const parentHighlight = range.startContainer.parentElement;
+  if (parentHighlight && parentHighlight.classList.contains("highlight")) {
+    unwrapHighlight(parentHighlight);
+    selection.removeAllRanges();
+    return;
+  }
+
+  // Tạo highlight mới
+  const span = document.createElement("span");
+  span.className = "highlight";
+
+  try {
+    range.surroundContents(span);
+  } catch (e) {
+    // Tránh lỗi khi chọn qua nhiều node phức tạp
+  }
+
+  selection.removeAllRanges();
+});
+
+// Hàm gỡ highlight
+function unwrapHighlight(el) {
+  const parent = el.parentNode;
+  while (el.firstChild) parent.insertBefore(el.firstChild, el);
+  parent.removeChild(el);
+}
+</script>
+<script>
+let totalSeconds = 60 * 60; // 60 phút
+
+const timerEl = document.getElementById("timer");
+
+function updateTimer() {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  timerEl.textContent =
+    "Time: " +
+    String(minutes).padStart(2, "0") +
+    ":" +
+    String(seconds).padStart(2, "0");
+
+  // Cảnh báo đỏ khi còn 5 phút
+  if (totalSeconds <= 300) {
+    timerEl.classList.add("timeWarning");
+  }
+
+  // Hết giờ
+  if (totalSeconds <= 0) {
+    clearInterval(timerInterval);
+    timerEl.textContent = "Time's up!";
+    document.body.classList.add("locked");
+    alert("Hết giờ làm bài!");
+    return;
+  }
+
+  totalSeconds--;
+}
+
+// chạy ngay khi load trang
+updateTimer();
+const timerInterval = setInterval(updateTimer, 1000);
+</script>
+
+
+
+</body>
+</html>
+
